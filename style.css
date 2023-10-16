@@ -1,0 +1,157 @@
+/* fontfamily google forms */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --bg-primary: #0e1a60;
+    --color-primary: #0e1a60;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.be-banner {
+    padding: 7rem 2rem;
+
+}
+
+.be-banner {
+    background: url(./pexels-karolina-grabowska-7195314.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0px;
+    min-height: 500px;
+    position: relative;
+}
+
+.be-banner-text-wrap h1 {
+
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.be-banner__btn {
+    background-color: rgb(84, 77, 77);
+    color: white;
+    padding: 8px 24px;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.be-banner__btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.be-banner-text-wrap {
+    max-width: 600px;
+}
+
+.be-banner-text-wrap p {
+    margin-bottom: 23px;
+    margin-top: 15px;
+}
+
+
+
+/* features box */
+.be-features__box1 {
+    background-color: rgb(203, 203, 203);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.be-features__box2 {
+    background-color: rgb(167, 166, 166);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.be-features__box3 {
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.be-features h3 {
+    padding: 10px;
+}
+
+.be-features i {
+    padding: 20px;
+}
+
+.section .be-features {
+    /* margin-top: -95px; */
+}
+
+
+/* Department */
+
+.be-department{
+    background-color: gray;
+    color: white;
+   
+}
+.be-department__title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.be-department__p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.be-department__units{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+}
+.be-department__units h6{
+    padding-top: 30px;
+
+}
+
+
+
+/* Media query */
+@media(max-width:991px) {
+
+    .be-coroseln {
+        padding: 5rem 2rem;
+
+    }
+}
+
+@media(max-width:768px) {
+
+    .be-corosel {
+        padding: 3rem 1rem;
+
+    }
+}
