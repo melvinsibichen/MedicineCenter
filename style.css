@@ -14,12 +14,12 @@ body {
     box-sizing: border-box;
 }
 
-.be-banner {
+.banner {
     padding: 7rem 2rem;
 
 }
 
-.be-banner {
+.banner {
     background: url(./images/pexels-karolina-grabowska-7195314.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,14 +29,14 @@ body {
     position: relative;
 }
 
-.be-banner-text-wrap h1 {
+.banner h1 {
 
     font-size: 60px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.be-banner__btn {
+.banner__btn {
     background-color: rgb(84, 77, 77);
     color: white;
     padding: 8px 24px;
@@ -47,16 +47,16 @@ body {
 
 }
 
-.be-banner__btn:hover {
+.banner__btn:hover {
     background-color: whitesmoke;
     color: black;
 }
 
-.be-banner-text-wrap {
+.banner-text-wrap {
     max-width: 600px;
 }
 
-.be-banner-text-wrap p {
+.banner p {
     margin-bottom: 23px;
     margin-top: 15px;
 }
@@ -64,7 +64,7 @@ body {
 
 
 /* features box */
-.be-features__box1 {
+.features__box1 {
     background-color: rgb(203, 203, 203);
     color: white;
     padding: 50px;
@@ -74,7 +74,7 @@ body {
     text-align: center;
 }
 
-.be-features__box2 {
+.features__box2 {
     background-color: rgb(167, 166, 166);
     color: white;
     padding: 50px;
@@ -84,7 +84,7 @@ body {
     text-align: center;
 }
 
-.be-features__box3 {
+.features__box3 {
     background-color: rgb(138, 138, 138);
     color: white;
     padding: 50px;
@@ -95,29 +95,29 @@ body {
    
 }
 
-.be-features h3 {
+.features__h3{
     padding: 10px;
 }
 
-.be-features i {
+.features__icon {
     padding: 20px;
 }
 
-.section .be-features {
-    /* margin-top: -95px; */
-}
+/* .section .be-features {
+    margin-top: -95px;
+} */
 
 /* MODERN PHARMACY */
 
-.modern h3{
+.modern__h3{
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
 }
-.modern p{
+.modern__p{
     text-align: center;
 }
-.modern .content span{
+.modern_content span{
     font-weight: bold;
 }
 .modern i{
@@ -173,27 +173,32 @@ body {
 }
 
 /* WE CARE */
-.card{
+.process{
+    padding: 20px;
+    background-color: rgb(189, 189, 189);
+}
+
+.process__card{
     margin-right: 20px;
     margin-left: 20px;
     align-items: center;
 }
-.process .heading{
+.process__heading{
     text-align: center;
 }
 
-.process p{
+.process__p{
     text-align: left;
     
 }
- .process .process__p{
+ .process__p{
     text-align: center;
 }
-.card-body h3{
+.process__card-body h3{
     font-weight:600;
 }
 
-.box-container{
+.process__box-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,10 +208,7 @@ body {
 
 }
 
-.process{
-    padding: 20px;
-    background-color: rgb(189, 189, 189);
-}
+
 
 /* worldmap */
 .worldmap{
@@ -226,23 +228,23 @@ body {
     object-fit: contain;
 
 }
-.worldmap .title{
+.worldmap__title{
     margin-top: 0px;
 }
-.worldmap .title h1{
+.worldmap__title h1{
     padding-top: 30px;
 }
 .map{
     padding-top: 0px;
 }
 
-.title{
+.worldmap__title{
     text-align: center;
     color: #fff;
     margin: 2rem 0;
     padding: 0 1em;
 }
-.title p{
+.worldmap__p{
     max-width: 500px;
     margin: 1em auto;
     line-height: 27px;
@@ -386,18 +388,398 @@ color: white;
 
 
 /* Media query */
-@media(max-width:991px) {
+@Media screen and (max-width:640px){
 
-    .be-coroseln {
-        padding: 5rem 2rem;
-
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        width:100%;
     }
-}
-
-@media(max-width:768px) {
-
-    .be-corosel {
-        padding: 3rem 1rem;
-
+    
+    .banner {
+        padding: 3rem 2rem;
+        width: 70%;
+    
     }
+    
+    .banner {
+        background: url(./images/pexels-karolina-grabowska-7195314.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 100px 0px;
+        min-height: auto;
+        position: relative;
+    }
+    
+    .banner h1 {
+    
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .banner__btn {
+        background-color: rgb(84, 77, 77);
+        color: white;
+        padding: 8px 24px;
+        text-decoration: none;
+        border-radius: 0px;
+        font-size: 10px;
+        font-weight: 600;
+    
+    }
+    
+    .banner__btn:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+    
+    .banner-text-wrap {
+        max-width: 600px;
+    }
+    
+    .banner p {
+        margin-bottom: 23px;
+        margin-top: 15px;
+       
+    }
+    
+    
+    
+    /* features box */
+    .features__box1 {
+        background-color: rgb(203, 203, 203);
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .features__box2 {
+        background-color: rgb(167, 166, 166);
+        color: white;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .features__box3 {
+        background-color: rgb(138, 138, 138);
+        color: white;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+       
+    }
+    
+    .features__h3{
+        padding: 10px;
+    }
+    
+    .features__icon {
+        padding: 20px;
+    }
+    
+    /* .section .be-features {
+        margin-top: -95px;
+    } */
+    
+    /* MODERN PHARMACY */
+    .modern{
+        width: 70%;
+    }
+    
+    .modern__h3{
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+    .modern__p{
+        text-align: center;
+    }
+    .modern_content span{
+        font-weight: bold;
+    }
+    .modern i{
+        padding-right: 10px;
+    }
+    
+    
+    /* Department */
+    
+    .be-department{
+        background-color: gray;
+        color: white;
+        width: 70%;
+       
+    }
+    .be-department__title{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .be-department__p{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .be-department__units{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px 20px;
+    }
+    .be-department__units h6{
+        padding-top: 30px;
+    
+    }
+    /* CARE OF HEART */
+    .about{
+        width: 70%;
+    }
+    
+    .about .row{
+        min-height: 50vh;
+    }
+    .about .content span{
+        font-size: 2rem;
+        color: black;
+    }
+    .about .content p{
+        padding: 1rem o;
+        font-size: 1rem;
+        color: black;
+       
+    }
+    .about img{
+        padding:20px
+    }
+    
+    /* WE CARE */
+    .process{
+        padding: 20px;
+        background-color: rgb(189, 189, 189);
+        width: 70%;
+    }
+    
+    .process__card{
+        margin-right: 10px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .process__heading{
+        text-align: center;
+    }
+    
+    .process__p{
+        text-align: left;
+        
+    }
+     .process__p{
+        text-align: center;
+    }
+    .process__card-body h3{
+        font-weight:600;
+    }
+    
+    .process__box-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 40px;
+        padding: 20px 20px;
+    
+    }
+    
+    
+    
+    /* worldmap */
+    .worldmap{
+        background: #03081c7d;
+        width: 70%;
+    }
+    
+    .map{
+        width: 100%;
+        max-width: 1100px;
+        margin:  0 auto;
+        padding: 1rem;
+        position: relative;
+    }
+    .worldmap img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    
+    }
+    .worldmap__title{
+        margin-top: 0px;
+    }
+    .worldmap__title h1{
+        padding-top: 30px;
+    }
+    .map{
+        padding-top: 0px;
+    }
+    
+    .worldmap__title{
+        text-align: center;
+        color: #fff;
+        margin: 2rem 0;
+        padding: 0 1em;
+    }
+    .worldmap__p{
+        max-width: 500px;
+        margin: 1em auto;
+        line-height: 27px;
+        margin-bottom: 0;
+    
+    }
+    .pin{
+        background: #959bba;
+        position: absolute;
+        width: 0.7em;
+        height: 0.7em;
+        border-radius: 50%;
+    
+    }
+    .pin::before{
+        content: '';
+        background: #c7cef0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        animation: pulse 1.3s ease-in-out infinite;
+    }
+    
+    .pin span{
+        display: inline-block;
+        white-space: nowrap;
+        position: absolute;
+        left: 1.5em;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgb(46, 43, 43);
+        border-radius: 3em;
+        padding: 0.3em 0.6em;
+        font-size: 0.9em;
+        color: white;
+    }
+    
+    .usa{
+        top: 50%;
+        left: 21%;
+    }
+    .france{
+        top: 45%;
+        left: 48%;
+    }
+    .swedan{
+        top: 33%;
+        left: 52%;
+    }
+    .africa{
+        top: 28%;
+        left: 79%;
+    }
+    
+    @keyframes pulse{
+        100%{
+            opacity: 0;
+            transform: translate(-50%,-50%);
+            scale:(2.5);
+        }
+    }
+    
+    /* Doctors */
+    
+    
+    
+    
+    /* Form */
+    .container6{
+        width: 100%;
+        height: 80vh;
+        background-color: gray;
+    }
+    .container6__h3{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+    }
+    .container6__p{
+        font-size: 18px;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-top: 1px;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .container6__inputname{
+        width: 750px;
+        height: 40px;
+        display: block;
+        margin-left: 260px;
+        font-size: 17px;
+        margin-bottom: 10px;
+        background-color: rgb(51, 47, 47);
+        color: #fff;
+    }
+    .container6__inputemail{
+        width: 750px;
+        height: 40px;
+        display: block;
+        margin-left: 260px;
+        font-size: 17px;
+        margin-bottom: 10px;
+        background-color: rgb(51, 47, 47);
+        color: #fff;
+    }
+    .container6__inputmsg{
+        width: 750px;
+        height: 90px;
+        display: block;
+        margin-left: 260px;
+        font-size: 17px;
+        margin-bottom: 10px;
+        background-color: rgb(51, 47, 47);
+        color: #fff;
+    }
+    .container6__btn{
+        width: 100px;
+        height: 40px;
+        display: block;
+        margin-left: 570px;
+        font-size: 17px;
+        margin-bottom: 10px;
+        padding: 0 px 10px;
+    }
+    
+    .container6__btn:hover{
+    background-color: black;
+    color: white;
+    }
+    
+
 }
