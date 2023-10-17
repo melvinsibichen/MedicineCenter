@@ -449,7 +449,7 @@ color: white;
     
     
     
-    /* features box */
+    /*  Media query features box */
     .features__box1 {
         background-color: rgb(203, 203, 203);
         color: white;
@@ -496,7 +496,7 @@ color: white;
         margin-top: -95px;
     } */
     
-    /* MODERN PHARMACY */
+    /*  Media query MODERN PHARMACY */
     .modern{
         width: 70%;
     }
@@ -517,7 +517,7 @@ color: white;
     }
     
     
-    /* Department */
+    /* Media query Department */
     
     .be-department{
         background-color: gray;
@@ -546,7 +546,7 @@ color: white;
         padding-top: 30px;
     
     }
-    /* CARE OF HEART */
+    /* Media query CARE OF HEART */
     .about{
         width: 70%;
     }
@@ -568,7 +568,7 @@ color: white;
         padding:20px
     }
     
-    /* WE CARE */
+    /* Media query WE CARE */
     .process{
         padding: 20px;
         background-color: rgb(189, 189, 189);
@@ -607,7 +607,7 @@ color: white;
     
     
     
-    /* worldmap */
+    /* Media query worldmap */
     .worldmap{
         background: #03081c7d;
         width: 70%;
@@ -714,7 +714,7 @@ color: white;
     
     
     
-    /* Form */
+    /* Media query Form */
     .container6{
         width: 100%;
         height: 80vh;
